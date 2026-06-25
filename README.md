@@ -67,7 +67,7 @@ Ensure the following are installed:
 
 ### Clone the Repository
 
-git clone https://github.com/<brightosas>/wesonline-data-engineering-tutorial.git
+git clone https://github.com/BrightOsas/wesonline-data-engineering-tutorial.git
 
 cd wesonline-tutorial
 

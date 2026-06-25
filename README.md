@@ -34,7 +34,7 @@ Validate data quality.
 Load transformed data into PostgreSQL.
 Schedule and monitor the pipeline using Airflow.
 
-<img width="659" height="316" alt="image" src="https://github.com/user-attachments/assets/fd9c91fb-1663-44df-ad63-4accba69dbdd" />
+<img width="959" height="416" alt="image" src="https://github.com/user-attachments/assets/fd9c91fb-1663-44df-ad63-4accba69dbdd" />
 
 
 
@@ -50,7 +50,7 @@ Perform validation checks.
 Load processed data into PostgreSQL.
 Schedule and monitor execution with Airflow.
 
-<img width="776" height="320" alt="image" src="https://github.com/user-attachments/assets/795e1642-80a4-4275-9fb3-4ba0754ead43" />
+<img width="976" height="420" alt="image" src="https://github.com/user-attachments/assets/795e1642-80a4-4275-9fb3-4ba0754ead43" />
 
 
 ## Getting Started
@@ -62,24 +62,29 @@ Ensure the following are installed:
 * Docker Compose
 * Git
 
-<img width="704" height="295" alt="image" src="https://github.com/user-attachments/assets/f92837b1-918a-494b-b3bd-ade178f435f6" />
+<img width="1004" height="595" alt="image" src="https://github.com/user-attachments/assets/f92837b1-918a-494b-b3bd-ade178f435f6" />
 
 
 ### Clone the Repository
 
 git clone https://github.com/BrightOsas/wesonline-data-engineering-tutorial.git
 
-cd wesonline-tutorial
+cd wesonline-data-engineering-tutorial  
 
-#### Start the Environment
+### Start the Environment
 
 docker compose up --build
 
-#### Access Airflow
+### Access Airflow
 
 Once the containers are running, open: http://localhost:8080
 
 Login using the credentials configured in your Airflow environment.
+
+### Access Pgadmin
+
+<img width="1070" height="650" alt="image" src="https://github.com/user-attachments/assets/22f06eeb-622c-415e-8472-83a6dd1a21c2" />
+
 
 ## Learning Objectives
 
